@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Raleway:wght@300&display=swap');
+.parent {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr 3fr 2fr;
+    grid-template-rows: 10px 30px 210px 50px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .todaimagem { 
+        background-image: url(final.png);
+        grid-area: 1 / 1 / 5 / 6; 
+        height: 98vh;
+        width: 99vw;
+        background-size:cover;
+        background-position: 0px -250px  ;
+    }
+    .title {
+        grid-area: 2 / 2 / 3 / 5; 
+    }
+    .titulo{
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 40px;
+        color: rgb(58, 0, 0);
+    }
+    .poema { 
+        grid-area: 3 / 3 / 4 / 4; 
+    }
+    .paragrafo{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        color: rgb(209, 182, 182);
+    }
